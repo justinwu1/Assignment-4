@@ -1,6 +1,7 @@
 const password = document.querySelector("#password");
 const form = document.querySelector("form");
 const form2 = document.querySelector("#form2");
+// Question#5
 form.addEventListener("submit", function (e) {
     e.preventDefault();
     const val = password.value;
@@ -11,7 +12,7 @@ form.addEventListener("submit", function (e) {
         h1.innerText = "You've logged in";
     }
 })
-
+// Quesiont#6
 form2.addEventListener("submit", function (e) {
     e.preventDefault();
     const val = form2.getElementsByTagName("input")[0].value;
