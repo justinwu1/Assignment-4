@@ -1,0 +1,19 @@
+body{
+    margin:auto;
+    max-width:300px;
+}
+input{
+    width:100%;
+    display:block;
+}
+button{
+    margin-top:30px;
+    margin-left:21%;
+    border-radius: 5px;
+    padding:5px;
+}
+#large{
+    font-size: 3rem;
+    background-color:pink;
+    padding:3rem;
+}
