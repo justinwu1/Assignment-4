@@ -11,7 +11,7 @@ button1.addEventListener("click", function () {
     h5.innerText = "I'm right";
 })
 button2.addEventListener("click", function () {
-    h5.innerText = "No,I'm right";
+    h5.innerText = "No,I'm right!!!";
 })
 
 large.addEventListener("mouseover", function () {
